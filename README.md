@@ -1,6 +1,6 @@
 # CampusFind - Campus Lost & Found
 
-CampusFind is a campus lost-and-found app built with Streamlit and SQLite. Students can browse and filter reports, register and log in, post lost or found items with optional photos, and submit claim requests. An admin can review claims.
+CampusFind is a campus lost-and-found app built with Streamlit and SQLite. Students can browse and filter reports, register and log in, post lost or found items with optional photos, and submit claim requests. An admin can review claims. The `assets/` folder contains original local illustrations used for the hero and listing placeholders.
 
 ## Run locally
 
@@ -53,6 +53,9 @@ campus_lost_found/
 ├── streamlit_app.py
 ├── .gitignore
 ├── requirements.txt
+├── assets/
+│   ├── campus_hero.png
+│   └── item_*.png
 ├── .streamlit/
 │   ├── config.toml
 │   └── secrets.toml.example
